@@ -83,6 +83,29 @@ data = {
         "color": "#358649"
       }]
     }
-    selector="#data_stepped_bar_chart"
-    create_stepped_bar_chart(selector,data)
+selector="#data_stepped_bar_chart"
+create_stepped_bar_chart(selector,data)
+
+data = {
+  "title": "Nixpend", 
+  "catagories": [{
+      "name": "Munes",
+      "value": 50,
+      "color": "#45b571"
+    }, {
+      "name": "Muhammad",
+      "value": 20,
+      "color": "#234b2c"
+    }, {
+      "name": "Muneeb",
+      "value": 10,
+      "color": "#4f4ef6"
+    }, {
+      "name": "Belal",
+      "value": 10,
+      "color": "#da7a5e"
+    }]
+  }
+selector="#data_stepped_bar_chart_2"
+create_stepped_bar_chart(selector,data)
 }
